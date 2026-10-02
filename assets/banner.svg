@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">GoingRusting</title>
+  <desc id="desc">Rethinking engines, learning, and graphics. Copper lettering and a geometric G on charcoal.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#f5eee3" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="#16191d"/>
+  <rect x="800" width="480" height="360" fill="url(#grid)"/>
+  <rect x="64" y="61" width="34" height="4" fill="#ef925e"/>
+  <text x="110" y="69" fill="#bcb5ad" font-family="DejaVu Sans, sans-serif" font-size="14" letter-spacing="3">RUST / GPU / POSSIBILITY</text>
+  <text x="60" y="168" fill="#f5eee3" font-family="DejaVu Sans, sans-serif" font-weight="700" font-size="76" letter-spacing="-3">Going<tspan fill="#ef925e">Rusting</tspan></text>
+  <text x="64" y="225" fill="#d7d0c7" font-family="DejaVu Sans, sans-serif" font-size="24">Rethinking engines, learning, and graphics.</text>
+  <text x="64" y="301" fill="#93979b" font-family="DejaVu Sans, sans-serif" font-size="15" letter-spacing="2">BUILD. MEASURE. EXPLORE.</text>
+  <path d="M1152 88H1024L968 144V224L1024 280H1152V184H1084" fill="none" stroke="#ef925e" stroke-width="30" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M1118 88H1152" fill="none" stroke="#f5eee3" stroke-width="30"/>
+</svg>

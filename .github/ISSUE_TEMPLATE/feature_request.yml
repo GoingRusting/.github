@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an improvement and explain the problem it would solve.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: Search existing issues and the project's roadmap before proposing a feature.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe a concrete use case and who would benefit.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Explain how you would expect it to work. A small example is welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and tradeoffs
+      description: Include existing workarounds, compatibility concerns, or performance implications if known.

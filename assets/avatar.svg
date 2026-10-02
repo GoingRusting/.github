@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">GoingRusting</title>
+  <desc id="desc">An angular copper G on charcoal, with a small cream accent.</desc>
+  <rect width="512" height="512" rx="112" fill="#16191d"/>
+  <path d="M344 144H192L128 208V304L192 368H344V256H264" fill="none" stroke="#ef925e" stroke-width="40" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M304 144H344" fill="none" stroke="#f5eee3" stroke-width="40"/>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "organization": {
+    "name": "GoingRusting",
+    "description": "Rethinking engines, machine learning, and graphics through Rust and GPU computing."
+  },
+  "repositories": {
+    "RustingEngine": {
+      "description": "A Rust game engine with Vulkan rendering, an editor, and hybrid CPU/GPU physics.",
+      "topics": ["rust", "game-engine", "vulkan", "gpu-computing", "physics", "graphics"]
+    },
+    "RustingBrain": {
+      "description": "A deep-learning library in Rust with CPU and GPU backends, neural networks, and transformer models.",
+      "topics": ["rust", "deep-learning", "machine-learning", "neural-network", "transformer", "cuda"]
+    },
+    "RustingShader": {
+      "description": "A cinematic Iris shader pack for Minecraft, featuring volumetric skies, reflective water, and a black hole in the End.",
+      "topics": ["minecraft", "iris-shaders", "shaderpack", "glsl", "graphics", "shaders"]
+    },
+    "best-back": {
+      "description": "Backend framework experiments across Rust, Go, TypeScript, C++, C#, Java, and Python, with a React frontend.",
+      "topics": ["backend", "web-development", "rust", "golang", "typescript", "react"]
+    },
+    ".github": {
+      "description": "GoingRusting's organization profile, branding, and shared community guidance.",
+      "topics": ["github-profile", "community", "documentation", "rust"]
+    }
+  },
+  "public_pins": ["RustingEngine", "RustingBrain", "RustingShader"]
+}

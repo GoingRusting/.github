@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible problem in this project.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve this project. Search existing issues first. Keep credentials and personal data out of examples and logs.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Which release or commit are you using?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include your operating system and relevant tool versions. For graphics or GPU problems, include the GPU and driver. For Minecraft shaders, include Minecraft, Iris, and Sodium versions.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Provide a small example, exact commands, or numbered steps someone else can follow.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include relevant error messages or screenshots when helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional logs or context
+      description: Share only relevant output. Remove secrets and personal information.
